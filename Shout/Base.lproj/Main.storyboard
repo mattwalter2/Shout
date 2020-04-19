@@ -38,6 +38,9 @@
                                         <state key="normal" title="LOGIN">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Lp4-QZ-cdE" kind="presentation" id="7mS-6c-mZV"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vq7-QI-L69">
                                         <rect key="frame" x="0.0" y="173" width="364" height="30"/>
@@ -68,6 +71,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="133" y="120"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jq2-jx-5YX">
+            <objects>
+                <viewController id="Lp4-QZ-cdE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yJZ-Ra-JIU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="88P-6r-jCf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kkK-4c-f4k"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A5R-6r-jKv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1032" y="52"/>
         </scene>
     </scenes>
 </document>
