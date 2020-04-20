@@ -44,9 +44,6 @@
                                         <state key="normal" title="LOGIN">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="Lp4-QZ-cdE" kind="presentation" id="7mS-6c-mZV"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vq7-QI-L69">
                                         <rect key="frame" x="0.0" y="190" width="364" height="30"/>
@@ -85,6 +82,56 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="119.86607142857142"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="CQd-5z-Bg8">
+            <objects>
+                <viewController id="w0H-3F-aVB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h24-JH-hoX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="sS3-C8-IRJ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="H7K-Cd-CQs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kmc-Me-rOh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1862" y="444"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="aeW-nx-aYh">
+            <objects>
+                <viewController id="L4K-Rt-zJC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bf8-37-NFb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ehg-pW-4b8"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="UTz-lV-NfP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ho-qC-1fI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1862" y="-204"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="dpJ-nQ-tM7">
+            <objects>
+                <tabBarController id="k4h-hK-4fE" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oqS-C4-43I">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="L4K-Rt-zJC" kind="relationship" relationship="viewControllers" id="GnR-cU-W7B"/>
+                        <segue destination="w0H-3F-aVB" kind="relationship" relationship="viewControllers" id="GDb-zc-AMI"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1MM-wL-8Qw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="943" y="120"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="0sQ-FL-UZq">
@@ -143,22 +190,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6bh-Gp-lHk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="833.70535714285711"/>
-        </scene>
-        <!--Home View Controller-->
-        <scene sceneID="Jq2-jx-5YX">
-            <objects>
-                <viewController id="Lp4-QZ-cdE" customClass="HomeViewController" customModule="Shout" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="yJZ-Ra-JIU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="88P-6r-jCf"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="kkK-4c-f4k"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="A5R-6r-jKv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1032" y="52"/>
         </scene>
     </scenes>
     <resources>
