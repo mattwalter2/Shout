@@ -16,23 +16,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gUI-l8-dyk">
-                                <rect key="frame" x="25" y="426.5" width="364" height="203"/>
+                                <rect key="frame" x="25" y="418" width="364" height="220"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O0R-8N-Hu8">
-                                        <rect key="frame" x="0.0" y="0.0" width="364" height="34"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="364" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Lmt-4m-MYy"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hcu-F2-TPQ">
-                                        <rect key="frame" x="0.0" y="54" width="364" height="34"/>
+                                        <rect key="frame" x="0.0" y="60" width="364" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="8NK-4N-aqy"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JyF-qv-FEl">
-                                        <rect key="frame" x="0.0" y="108" width="364" height="45"/>
+                                        <rect key="frame" x="0.0" y="120" width="364" height="50"/>
                                         <color key="backgroundColor" red="1" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="45" id="da7-Up-Gbb"/>
+                                            <constraint firstAttribute="height" constant="50" id="da7-Up-Gbb"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
                                         <state key="normal" title="LOGIN">
@@ -43,7 +49,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vq7-QI-L69">
-                                        <rect key="frame" x="0.0" y="173" width="364" height="30"/>
+                                        <rect key="frame" x="0.0" y="190" width="364" height="30"/>
                                         <state key="normal" title="Forgot Password? Recover here">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -57,7 +63,7 @@
                                 </state>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shout Logo Red Transparent" translatesAutoresizingMaskIntoConstraints="NO" id="Pkn-sR-O3F">
-                                <rect key="frame" x="-293" y="107.5" width="1000" height="349"/>
+                                <rect key="frame" x="-293" y="99" width="1000" height="349"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="349" id="btz-jR-v8j"/>
                                 </constraints>
