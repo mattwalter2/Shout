@@ -17,6 +17,7 @@
 		BAFDA96924476C7100354C62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFDA96724476C7100354C62 /* LaunchScreen.storyboard */; };
 		BAFDA97424476C7200354C62 /* ShoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA97324476C7200354C62 /* ShoutTests.swift */; };
 		BAFDA97F24476C7200354C62 /* ShoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA97E24476C7200354C62 /* ShoutUITests.swift */; };
+		CB3591BF244DEF2400AF98ED /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3591BE244DEF2400AF98ED /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BAFDA97A24476C7200354C62 /* ShoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFDA97E24476C7200354C62 /* ShoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoutUITests.swift; sourceTree = "<group>"; };
 		BAFDA98024476C7200354C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB3591BE244DEF2400AF98ED /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				BABACFA4244CD78200D3DEE5 /* LoginViewController.swift */,
 				BABACFA7244CDB9000D3DEE5 /* HomeViewController.swift */,
+				CB3591BE244DEF2400AF98ED /* SignUpViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB3591BF244DEF2400AF98ED /* SignUpViewController.swift in Sources */,
 				BABACFA8244CDB9000D3DEE5 /* HomeViewController.swift in Sources */,
 				BABACFA5244CD78200D3DEE5 /* LoginViewController.swift in Sources */,
 				BAFDA96124476C6C00354C62 /* ViewController.swift in Sources */,
