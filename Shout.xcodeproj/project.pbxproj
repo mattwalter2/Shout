@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BABACFA5244CD78200D3DEE5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACFA4244CD78200D3DEE5 /* LoginViewController.swift */; };
 		BABACFA8244CDB9000D3DEE5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACFA7244CDB9000D3DEE5 /* HomeViewController.swift */; };
+		BABACFB5244F6DF300D3DEE5 /* TabBar(needs to be renamed).storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABACFB3244F6DF300D3DEE5 /* TabBar(needs to be renamed).storyboard */; };
 		BAFDA95D24476C6C00354C62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA95C24476C6C00354C62 /* AppDelegate.swift */; };
 		BAFDA95F24476C6C00354C62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA95E24476C6C00354C62 /* SceneDelegate.swift */; };
 		BAFDA96124476C6C00354C62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA96024476C6C00354C62 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		BABACFA4244CD78200D3DEE5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BABACFA7244CDB9000D3DEE5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BABACFB4244F6DF300D3DEE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Shout/Base.lproj/TabBar(needs to be renamed).storyboard"; sourceTree = "<group>"; };
 		BAFDA95924476C6C00354C62 /* Shout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFDA95C24476C6C00354C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAFDA95E24476C6C00354C62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				BAFDA95E24476C6C00354C62 /* SceneDelegate.swift */,
 				BAFDA96024476C6C00354C62 /* ViewController.swift */,
 				BAFDA96224476C6C00354C62 /* Main.storyboard */,
+				BABACFB3244F6DF300D3DEE5 /* TabBar(needs to be renamed).storyboard */,
 				BAFDA96524476C7100354C62 /* Assets.xcassets */,
 				BAFDA96724476C7100354C62 /* LaunchScreen.storyboard */,
 				BAFDA96A24476C7100354C62 /* Info.plist */,
@@ -252,6 +255,7 @@
 				BAFDA96924476C7100354C62 /* LaunchScreen.storyboard in Resources */,
 				BAFDA96624476C7100354C62 /* Assets.xcassets in Resources */,
 				BAFDA96424476C6C00354C62 /* Main.storyboard in Resources */,
+				BABACFB5244F6DF300D3DEE5 /* TabBar(needs to be renamed).storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +321,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		BABACFB3244F6DF300D3DEE5 /* TabBar(needs to be renamed).storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BABACFB4244F6DF300D3DEE5 /* Base */,
+			);
+			name = "TabBar(needs to be renamed).storyboard";
+			sourceTree = "<group>";
+		};
 		BAFDA96224476C6C00354C62 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

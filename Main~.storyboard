@@ -44,9 +44,6 @@
                                         <state key="normal" title="LOGIN">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="47K-ni-fq5" kind="presentation" id="7vB-qO-xAQ"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vq7-QI-L69">
                                         <rect key="frame" x="0.0" y="190" width="364" height="30"/>
@@ -85,6 +82,90 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="119.86607142857142"/>
+        </scene>
+        <!--Concert-->
+        <scene sceneID="vpR-Pc-2Uj">
+            <objects>
+                <viewController id="o9C-9I-d7q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h1I-57-WFT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="bwV-Ql-ASg"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Concert" image="music.mic" catalog="system" id="7iu-0D-zUq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OfL-ES-gti" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1861" y="1094"/>
+        </scene>
+        <!--Activity-->
+        <scene sceneID="TfN-0C-4eL">
+            <objects>
+                <viewController id="g9k-ea-hUb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TVn-Uu-nMM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="r76-t8-Iac"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Activity" image="heart" catalog="system" selectedImage="heart.fill" id="1lf-J7-am7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qiy-nF-rYi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1861" y="1765"/>
+        </scene>
+        <!--Explore-->
+        <scene sceneID="CQd-5z-Bg8">
+            <objects>
+                <viewController id="w0H-3F-aVB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h24-JH-hoX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="sS3-C8-IRJ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Explore" image="magnifyingglass" catalog="system" id="H7K-Cd-CQs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kmc-Me-rOh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1862" y="444"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="aeW-nx-aYh">
+            <objects>
+                <viewController id="L4K-Rt-zJC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bf8-37-NFb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ehg-pW-4b8"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" selectedImage="house.fill" id="UTz-lV-NfP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ho-qC-1fI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1862" y="-204"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="dpJ-nQ-tM7">
+            <objects>
+                <tabBarController id="k4h-hK-4fE" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oqS-C4-43I">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="L4K-Rt-zJC" kind="relationship" relationship="viewControllers" id="GnR-cU-W7B"/>
+                        <segue destination="w0H-3F-aVB" kind="relationship" relationship="viewControllers" id="GDb-zc-AMI"/>
+                        <segue destination="o9C-9I-d7q" kind="relationship" relationship="viewControllers" id="wdY-Q1-Omt"/>
+                        <segue destination="g9k-ea-hUb" kind="relationship" relationship="viewControllers" id="u6x-Nx-pbM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1MM-wL-8Qw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="943" y="120"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="0sQ-FL-UZq">
@@ -153,16 +234,14 @@
             </objects>
             <point key="canvasLocation" x="132" y="819"/>
         </scene>
-        <!--TabBar(needs to be renamed)-->
-        <scene sceneID="9I0-QQ-uZd">
-            <objects>
-                <viewControllerPlaceholder storyboardName="TabBar(needs to be renamed)" id="47K-ni-fq5" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1hw-2R-5ai" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="943" y="120"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Shout Logo Red Transparent" width="1000" height="1000"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <image name="house" catalog="system" width="128" height="110"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="music.mic" catalog="system" width="128" height="118"/>
     </resources>
 </document>

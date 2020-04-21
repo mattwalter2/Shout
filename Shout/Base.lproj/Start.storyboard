@@ -45,7 +45,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="47K-ni-fq5" kind="presentation" id="7vB-qO-xAQ"/>
+                                            <segue destination="fQN-TB-orl" kind="presentation" id="z8U-9l-wDN"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vq7-QI-L69">
@@ -153,11 +153,11 @@
             </objects>
             <point key="canvasLocation" x="132" y="819"/>
         </scene>
-        <!--TabBar(needs to be renamed)-->
-        <scene sceneID="9I0-QQ-uZd">
+        <!--Main-->
+        <scene sceneID="hYK-YK-cCV">
             <objects>
-                <viewControllerPlaceholder storyboardName="TabBar(needs to be renamed)" id="47K-ni-fq5" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1hw-2R-5ai" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Main" id="fQN-TB-orl" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dT3-5g-OaO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="943" y="120"/>
         </scene>
