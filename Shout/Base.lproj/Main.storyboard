@@ -83,7 +83,7 @@
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="119.86607142857142"/>
         </scene>
-        <!--Item 2-->
+        <!--Explore-->
         <scene sceneID="CQd-5z-Bg8">
             <objects>
                 <viewController id="w0H-3F-aVB" sceneMemberID="viewController">
@@ -93,7 +93,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="sS3-C8-IRJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="H7K-Cd-CQs"/>
+                    <tabBarItem key="tabBarItem" title="Explore" image="magnifyingglass" catalog="system" id="H7K-Cd-CQs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kmc-Me-rOh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -210,5 +210,6 @@
         <image name="Shout Logo Red Transparent" width="1000" height="1000"/>
         <image name="house" catalog="system" width="128" height="110"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
     </resources>
 </document>
