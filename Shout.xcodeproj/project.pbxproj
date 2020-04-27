@@ -12,7 +12,7 @@
 		B3CDCC52FEE08BE69BD9F476 /* Pods_ShoutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487FA544CEF21638C1898AE9 /* Pods_ShoutTests.framework */; };
 		BABACFA5244CD78200D3DEE5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACFA4244CD78200D3DEE5 /* LoginViewController.swift */; };
 		BABACFA8244CDB9000D3DEE5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABACFA7244CDB9000D3DEE5 /* HomeViewController.swift */; };
-		BABACFB5244F6DF300D3DEE5 /* TabBar(needs to be renamed).storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABACFB3244F6DF300D3DEE5 /* TabBar(needs to be renamed).storyboard */; };
+		BABACFB5244F6DF300D3DEE5 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABACFB3244F6DF300D3DEE5 /* TabBar.storyboard */; };
 		BABACFB72450ADE700D3DEE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BABACFB62450ADE700D3DEE5 /* GoogleService-Info.plist */; };
 		BAFDA95D24476C6C00354C62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA95C24476C6C00354C62 /* AppDelegate.swift */; };
 		BAFDA95F24476C6C00354C62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFDA95E24476C6C00354C62 /* SceneDelegate.swift */; };
@@ -49,7 +49,7 @@
 		A5585A58875A4013C368CA33 /* Pods-ShoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoutTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoutTests/Pods-ShoutTests.release.xcconfig"; sourceTree = "<group>"; };
 		BABACFA4244CD78200D3DEE5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BABACFA7244CDB9000D3DEE5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		BABACFB4244F6DF300D3DEE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Shout/Base.lproj/TabBar(needs to be renamed).storyboard"; sourceTree = "<group>"; };
+		BABACFB4244F6DF300D3DEE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Shout/Base.lproj/TabBar.storyboard; sourceTree = "<group>"; };
 		BABACFB62450ADE700D3DEE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BAFDA95924476C6C00354C62 /* Shout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFDA95C24476C6C00354C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 				BAFDA95E24476C6C00354C62 /* SceneDelegate.swift */,
 				BAFDA96024476C6C00354C62 /* ViewController.swift */,
 				BAFDA96224476C6C00354C62 /* Main.storyboard */,
-				BABACFB3244F6DF300D3DEE5 /* TabBar(needs to be renamed).storyboard */,
+				BABACFB3244F6DF300D3DEE5 /* TabBar.storyboard */,
 				BABACFB62450ADE700D3DEE5 /* GoogleService-Info.plist */,
 				BAFDA96524476C7100354C62 /* Assets.xcassets */,
 				BAFDA96724476C7100354C62 /* LaunchScreen.storyboard */,
@@ -303,7 +303,7 @@
 				BAFDA96624476C7100354C62 /* Assets.xcassets in Resources */,
 				BABACFB72450ADE700D3DEE5 /* GoogleService-Info.plist in Resources */,
 				BAFDA96424476C6C00354C62 /* Main.storyboard in Resources */,
-				BABACFB5244F6DF300D3DEE5 /* TabBar(needs to be renamed).storyboard in Resources */,
+				BABACFB5244F6DF300D3DEE5 /* TabBar.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,12 +450,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BABACFB3244F6DF300D3DEE5 /* TabBar(needs to be renamed).storyboard */ = {
+		BABACFB3244F6DF300D3DEE5 /* TabBar.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BABACFB4244F6DF300D3DEE5 /* Base */,
 			);
-			name = "TabBar(needs to be renamed).storyboard";
+			name = TabBar.storyboard;
 			sourceTree = "<group>";
 		};
 		BAFDA96224476C6C00354C62 /* Main.storyboard */ = {
